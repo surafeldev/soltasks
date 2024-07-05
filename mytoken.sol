@@ -46,12 +46,6 @@ contract MyToken {
             balances[_address] -= _value;
         }
 
-
-        require(balances[_address] >= _value, "Insufficient balance");
-        totalSupply -= _value;
-        balances[_address] -= _value;
     }
-
-
 
 }
