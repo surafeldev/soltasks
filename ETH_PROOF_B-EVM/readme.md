@@ -79,7 +79,7 @@ Decreases the total supply and the balance of the specified address if the balan
         totalSupply -= _value;
         balances[_address] -= _value;
     }
- }
+  }
 
 Usage
 Minting Tokens
